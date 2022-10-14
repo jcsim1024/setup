@@ -6,3 +6,10 @@ java_() {
   java -version
 }
 java_
+
+# to put in bashrc or zsh
+
+#multiple java configs
+config(){
+  sudo update-alternatives --config java
+}

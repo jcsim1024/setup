@@ -9,7 +9,7 @@ kube_ctx_ns() {
 
   sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
   sudo ln -s /opt/kubectx/kubens /usr/local/bin/ks
-  kx -version
-  ks -version
+  kx --help
+  ks --help
 }
 kube_ctx_ns

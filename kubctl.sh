@@ -1,6 +1,6 @@
 #!/bin/sh
 
-kubctl_() {
+kubectl_() {
   #https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
   set -x
   sudo apt-get update
